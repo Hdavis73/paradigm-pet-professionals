@@ -200,9 +200,16 @@ img.sub-page-main {
     color: var(--light-blue)
 }
 
-.non-main-content h4 {
+.non-main-content h4,
+.non-main-content h6 {
     margin-top: 20px;
-    color: var(--light-blue)
+    color: var(--light-blue);
+    font-size: 1.2rem;
+}
+
+.non-main-content h6 {
+    margin-top: 60px;
+    margin-bottom: 0px;
 }
 
 .contents {
@@ -221,6 +228,10 @@ img.sub-page-main {
     color: white;
 }
 
+.non-main-content a:hover {
+    color: var(--grey)
+}
+
 .back-to-top {
     position: fixed;
     right: 3px;
@@ -235,4 +246,56 @@ img.sub-page-main {
 .back-to-top img {
     width: 90%;
     height: 100%;
+}
+
+ .non-main-content .form-wrap h6 {
+    margin-top: 0px;
+    font-size: 1.4rem;
+}
+
+.non-main-content .form-wrap {
+    background-color: var(--dark-blue);
+    max-width: 50%;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto 10px auto;
+}
+
+.non-main-content form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.non-main-content form input {
+    width: 47%;
+    margin-bottom: 17px;
+    padding: 5px;
+    border-radius: 3px;
+    border: none;
+}
+
+.non-main-content form .email {
+    width: 100%;
+}
+
+form button {
+    background-color: var(--light-blue);
+    border: none;
+    padding: 8px 25px;
+    color: white;
+    font-weight: 600;
+    margin: auto;
+    border-radius: 3px;
+    font-size: 1rem;
+}
+
+form button:hover {
+    background-color: var(--light-grey);
+    color: var(--dark-blue)
 }
