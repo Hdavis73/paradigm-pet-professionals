@@ -11,7 +11,7 @@
   <body>
     <header id="top">
       <img src="imgs/logo.png" alt="paradigm pet professionals logo" class="logo" />
-      <nav>
+      <nav class="">
         <a href="/">Home</a>
         <a href="dogs.html">Dogs</a>
         <a href="cats.html">Cats</a>
@@ -19,9 +19,24 @@
         <a href="faqs.html">FAQs</a>
       </nav>
 
-      <div class="search-btn-group">
+      <div class="search-btn-group hidden">
         <input class="search-bar" type="text" placeholder="Search..." />
         <button class="btn search-btn">Fetch!</button>
+      </div>
+
+
+      <div class="hamburger-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <div class="hamburger-nav hidden">
+        <a href="/">Home</a>
+        <a href="dogs.html">Dogs</a>
+        <a href="cats.html">Cats</a>
+        <a href="birds.html">Birds</a>
+        <a href="faqs.html">FAQs</a>
       </div>
     </header>
 
@@ -67,5 +82,7 @@
     <footer>
       <span>evidence-based pet care advice for every pet lover</span>
     </footer>
+
+    <script src="main.js"></script>
   </body>
 </html>
