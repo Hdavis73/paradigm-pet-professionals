@@ -69,6 +69,8 @@ nav a:last-of-type {
   border-right: 1px solid var(--light-grey);
 }
 
+footer
+
 /* header .search-btn-group {
     align-self: center;
     margin-right: 10px;
@@ -146,7 +148,7 @@ header button:hover {
 footer {
   background-color: var(--dark-blue);
   text-align: center;
-  background-color: white;
+  color: white;
   padding: 10px;
 }
 
@@ -349,6 +351,17 @@ form button:hover {
   color: var(--dark-blue);
 }
 
+
+@media screen and (max-width: 650px) {
+    .contents {
+        width: 45%;
+    }
+
+    .non-main-content .form-wrap {
+        width: 90%;
+    }
+}
+
 @media screen and (max-width: 800px) {
   .home-main img {
     height: 115vh;
@@ -376,8 +389,4 @@ form button:hover {
 
 }
 
-@media screen and (max-width: 650px) {
-    .contents {
-        width: 45%;
-    }
-}
+
