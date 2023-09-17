@@ -361,7 +361,7 @@ form button:hover {
 
 @media screen and (max-width: 800px) {
   .home-main img {
-    height: 115vh;
+    height: 105vh;
   }
 
   main .inner-links {
@@ -369,7 +369,7 @@ form button:hover {
   }
 
   .home-main .main-cover {
-    height: 115vh;
+    height: 105vh;
   }
 
   header nav {
