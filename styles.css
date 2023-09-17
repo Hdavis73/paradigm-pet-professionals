@@ -68,9 +68,6 @@ nav a:hover {
 nav a:last-of-type {
   border-right: 1px solid var(--light-grey);
 }
-
-footer
-
 /* header .search-btn-group {
     align-self: center;
     margin-right: 10px;
