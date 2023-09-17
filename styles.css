@@ -351,7 +351,7 @@ form button:hover {
 
 @media screen and (max-width: 800px) {
   .home-main img {
-    height: 140vh;
+    height: 115vh;
   }
 
   main .inner-links {
@@ -359,7 +359,7 @@ form button:hover {
   }
 
   .home-main .main-cover {
-    height: 140vh;
+    height: 115vh;
   }
 
   header nav {
@@ -369,6 +369,15 @@ form button:hover {
   header .hamburger-menu {
     display: flex;
   }
+  
+  .non-main-content {
+    padding: 10px 10px;
+  }
 
+}
 
+@media screen and (max-width: 650px) {
+    .contents {
+        width: 45%;
+    }
 }
