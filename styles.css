@@ -71,7 +71,7 @@ nav a:last-of-type {
     border-right: 1px solid var(--light-grey);
 }
 
-header .search-btn-group {
+/* header .search-btn-group {
     align-self: center;
     margin-right: 10px;
     width: 20%;
@@ -98,7 +98,7 @@ header button {
 
 header button:hover {
     background-color: var(--light-grey)
-}
+} */
 
 .hamburger-menu {
     width: 40px;
