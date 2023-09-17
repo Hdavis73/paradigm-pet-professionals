@@ -355,7 +355,7 @@ form button:hover {
     }
 
     .non-main-content .form-wrap {
-        width: 90%;
+        max-width: 90%;
     }
 }
 
